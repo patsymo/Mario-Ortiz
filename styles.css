@@ -16,19 +16,28 @@ body {
 header {
     font-family: 'Doto', sans-serif;
     font-size: 8rem;
-    text-shadow: 3px 3px 20px rgba(255, 255, 255, 2); /* Shadow effect */
+    text-shadow: 4px 4px 20px rgba(255, 255, 255, 0.8); /* Stronger shadow effect */
     text-align: center;
-    margin-top: 0px;
     background: url('Service-robots-1.jpg') no-repeat center center;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     height: 400px; /* Fixed height */
     width: 100%;
-    line-height: 250px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end; /* Moves text lower */
+    padding-bottom: 50px; /* Lowers the text */
+    position: relative;
+}
+
+/* Background box behind text */
+.header-text {
+    background: rgba(200, 200, 200, 0.4); /* Light gray semi-transparent box */
+    padding: 20px 40px;
+    border-radius: 15px;
+    display: inline-block;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4); /* Soft shadow */
 }
 
 /* Navigation Bar Styling */
