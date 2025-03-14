@@ -33,7 +33,7 @@ header {
 
 /* Background box behind text */
 .header-text {
-    background: rgba(200, 200, 200, 0.4); /* Light gray semi-transparent box */
+    background: rgba(0, 0, 255, 0.4); /* Light gray semi-transparent box */
     padding: 20px 40px;
     border-radius: 15px;
     display: inline-block;
