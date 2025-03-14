@@ -16,7 +16,7 @@ body {
 header {
     font-family: 'Doto', sans-serif;
     font-size: 8rem;
-    text-shadow: 4px 4px 20px rgba(255, 255, 255, 0.8); /* Stronger shadow effect */
+    text-shadow: 4px 4px 20px rgba(0, 0, 255, 0.8); /* Stronger shadow effect */
     text-align: center;
     background: url('Service-robots-1.jpg') no-repeat center center;
     background-size: cover;
