@@ -11,14 +11,15 @@ body {
 
 header {
     background: url('1140-yosemite-hero.imgcache.rev.web.700.403.jpg') no-repeat center center/cover;
-    height: 400px; /* Image height */
+    height: 100%; /* Image height */
     width: 100%;
+    object-fit: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
     font-weight: bold;
-    object-fit: cover;
+    
 }
 
 nav {
