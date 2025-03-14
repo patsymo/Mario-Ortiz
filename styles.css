@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Great+Vibes&display=swap');
+
 body {
     font-family: Arial, sans-serif;
     background: url('c1ef8d13-b1ae-45f3-8fa6-0cff78d29d0c.avif');
@@ -11,6 +13,7 @@ body {
     align-items: center;
 }
 
+/* Header with background image */
 header {
     background: url('Yosemite-National-Park-for-Hero.avif') no-repeat center center;
     background-size: cover; /* Ensures the image fully covers the header */
@@ -24,9 +27,11 @@ header {
     font-size: 6rem;
     font-weight: bold;
     text-align: center;
+    text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.7); /* Adds depth to text */
+    animation: fadeIn 2s ease-in-out;
 }
 
-
+/* Navigation bar */
 nav {
     display: flex;
     justify-content: center;
@@ -39,8 +44,15 @@ nav a {
     color: #bbb; /* Light gray text color */
     margin: 0 15px;
     text-decoration: none; /* No underline */
+    font-size: 1.2rem;
+    transition: color 0.3s ease-in-out;
 }
 
+nav a:hover {
+    color: #fff; /* Changes color on hover */
+}
+
+/* Main container */
 .container {
     max-width: 900px; /* Max width of container */
     width: 100%;
@@ -51,22 +63,43 @@ nav a {
     align-items: center;
 }
 
+/* Quote Styling */
 .quote {
+    font-family: 'Playfair Display', serif; /* Elegant serif font */
+    font-size: 2.5rem; /* Bigger size */
+    font-style: italic;
     text-align: center;
+    color: #fff; /* White text */
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.2); /* Subtle glow effect */
+    padding: 20px;
+    margin: 40px 0;
+    max-width: 700px; /* Keeps the text nicely contained */
+    border-left: 5px solid #bbb; /* Stylish left border */
+    border-right: 5px solid #bbb;
+    background: linear-gradient(to right, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    border-radius: 10px;
     animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Fade-in animation */
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(10px); }
     to { opacity: 1; transform: translateY(0); }
-    font-style: italic; /* Italicized quote */
-    margin: 40px 0;
-    width: 100%;
 }
 
+/* Section Styling */
 .section {
     margin-bottom: 40px;
     padding: 20px;
     background: #222; /* Dark background for sections */
     border-radius: 10px; /* Rounded corners */
     width: 100%;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect for sections */
+.section:hover {
+    transform: scale(1.02); /* Slight zoom effect */
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2); /* Soft glow */
 }
 
