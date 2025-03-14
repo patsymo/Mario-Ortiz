@@ -1,6 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    background: url('c1ef8d13-b1ae-45f3-8fa6-0cff78d29d0c.avif') no-repeat center;
+    background: url('c1ef8d13-b1ae-45f3-8fa6-0cff78d29d0c.avif');
+    background-size: 100% 100%; /* Stretches to fit both width and height */
+    background-repeat: no-repeat;
     color: #fff; /* White text color */
     margin: 0;
     padding: 0;
