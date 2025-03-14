@@ -16,7 +16,7 @@ body {
 header {
     font-family: 'Doto', sans-serif;
     font-size: 8rem;
-    text-shadow: 4px 4px 20px rgba(0, 0, 255, 0.8); /* Stronger shadow effect */
+    text-shadow: 4px 4px 20px rgba(0, 0, 255, 0.8); /* shadow effect */
     text-align: center;
     background: url('Service-robots-1.jpg') no-repeat center center;
     background-size: cover;
@@ -37,7 +37,7 @@ header {
     padding: 20px 40px;
     border-radius: 15px;
     display: inline-block;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4); /* Soft shadow */
+    box-shadow: 0px 4px 10px rgba(0, 0, 255, 0.4); /* Soft shadow */
 }
 
 /* Navigation Bar Styling */
