@@ -2,9 +2,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: url('futuristic-ai-brain-on-a-digital-background-b4uthj0dby0dt7zy.jpg');
+    background: url('futuristic-ai-brain-on-a-digital-background-b4uthj0dby0dt7zy.jpg') no-repeat center center fixed;
     background-size: cover; 
-    background-repeat: no-repeat;
     color: #fff; /* White text color */
     margin: 0;
     padding: 0;
@@ -20,6 +19,14 @@ header {
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* Shadow effect */
     text-align: center;
     margin-top: 20px;
+    background: url('Service-robots-1.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: center center;
+    height: 400px; /* Fixed height */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Navigation Bar Styling */
@@ -130,4 +137,5 @@ nav a:hover {
     height: 100%;
     border: none;
 }
+
 
