@@ -22,6 +22,7 @@ header {
     background: url('Service-robots-1.jpg') no-repeat center center;
     background-size: cover;
     background-position: center center;
+    background-repeat: no-repeat;
     height: 400px; /* Fixed height */
     width: 100%;
     display: flex;
